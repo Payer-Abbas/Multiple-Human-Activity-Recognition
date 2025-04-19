@@ -7,6 +7,16 @@ ONNX Runtime with a pretrained ResNet-34 (Kinetics) model for action classificat
 
 OpenCV for video capture and rendering.
 
+Download the required model weights before running the project:
+
+bash wget https://github.com/ultralytics/assets/releases/download/v8.0.0/yolov8m.pt -P models/
+
+Or in Python (automatically download):
+
+import os import urllib.request
+
+model_url = "https://github.com/ultralytics/assets/releases/download/v8.0.0/yolov8m.pt" model_path = "models/yolov8m.pt"
+
 🛠️ Features
 
 Real-time webcam-based activity detection
